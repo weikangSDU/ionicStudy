@@ -1,5 +1,5 @@
 {
-  "name": "myIonic",
+  "name": "firstIonic",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "http://ionicframework.com/",
@@ -23,7 +23,6 @@
     "@ionic-native/core": "~4.20.0",
     "@ionic-native/splash-screen": "~4.20.0",
     "@ionic-native/status-bar": "~4.20.0",
-    "@ionic/pro": "2.0.4",
     "@ionic/storage": "2.2.0",
     "cordova-android": "7.0.0",
     "cordova-plugin-device": "^2.0.2",
