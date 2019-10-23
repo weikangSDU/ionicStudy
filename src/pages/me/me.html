@@ -1,0 +1,21 @@
+<!--
+  Generated template for the MePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>me</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ng-container *ngFor="let num of numList">
+      <button ion-item *ngIf="num%2==0" (click)="btnClick(num)">{{num}}</button>
+    </ng-container>
+    
+    
+  </ion-list>
+</ion-content>
